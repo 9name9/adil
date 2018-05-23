@@ -1,0 +1,41 @@
+* {
+	font-size: 17px;
+	color: red;
+}
+
+img {
+	width: 500px;
+	box-shadow: 0px 0px 12px 2px #0000001a;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+	animation: ad 1s infinite ease-in-out
+}
+
+em {
+	color: green;
+	animation: ad1 2s infinite ease-in-out
+}
+
+@keyframes  ad {
+	from{width: 500px;
+		height: 375px;}
+	50% {
+		width: 650px;
+		height: 335px;
+	}
+	65% {
+		width: 450px;
+		height: 400px;
+	to {
+		width: 500px;
+		height: 375px;
+	}
+	}
+}
+
+@keyframes ad1 {
+	from {font-size: 17px}
+	50% {font-size: 50px}
+	to { font-size: 17px}
+}
